@@ -1,0 +1,99 @@
+
+.div1{
+    width: 400px;
+    border: 1px solid;
+    /* height: 300px; */
+    margin:  100px auto;
+  
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 15px;
+}
+.scroll{
+  
+    width: 75%;
+}
+td{
+    display: flex;
+    justify-content: space-between;
+    width: 256px;
+}
+ i{
+    position: absolute;
+    z-index: 1;
+    font-size: 25px;
+    top: 5px;
+    right: 142px;
+}
+ icon{
+    padding-right: 20px;
+    padding-top: 10px;
+
+}
+li{
+    display: flex;
+    list-style-type: none;
+}
+.divline{
+    background-color: yellow;
+    height: 30px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px; 
+}
+form{
+   position: relative;
+   left: 65px;
+   top: 17px;
+
+}
+
+.divUl{
+    border: 2px solid;
+    border-radius: 15px ;
+    width: 268px;
+    display: flex;
+    margin-top: 10px;
+    overflow-y: hidden;
+}
+.text{
+    width: 261px;
+    height: 30px;
+    border-radius: 10px;
+
+}
+.displayInput{
+    display: none;
+}
+h3{
+    text-align: center;
+    font-size: 35px;
+}
+.button1{
+   background-color: blueviolet;
+   color: #fff;
+   height: 40px;
+   width: 50%;
+   margin: 25px 95px;
+   border-radius: 20px;
+   border: rgb(174,114,230);
+}
+.button2{
+    position: relative;
+    top: -65px;
+    border: rgb(175,127,219);
+    background-color: rgb(175,127,219);
+    border-radius: 20px;
+    color: #fff;
+    width: 40px;
+    /* position: absolute; */
+    left: 95px;
+    bottom: 45px;
+    height: 40px;
+}
+.imagediv{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 75px;
+}
